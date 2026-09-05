@@ -23,9 +23,9 @@ La carpeta .ventoy-1.1.17 copiarla en /opt', con el nombre : ventoy.
 
 el archivo link to Ventoy.desktop, copiarla en la carpeta :
 
-/home/'usuario'/.local/share/applications
+~/.local/share/applications
 
-Puedes tambien si deseas tambien podes pegarlo en el escritorio.
+* Puedes tambien agregarlo en el escritorio.
 
 
 y listo .....
