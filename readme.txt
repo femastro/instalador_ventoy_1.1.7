@@ -17,7 +17,7 @@ FORMA MANUAL:
 
 las carpetas y los archivo deben quedar instalado de esta manera.
 
-La carpeta .ventoy-1.1.17 copiarla en /opt/ventoy' , la carpeta debe esta oculta.
+La carpeta .ventoy-1.1.17 copiarla en /opt', con el nombre : ventoy.
 
 el archivo link to Ventoy.desktop, copiarla en la carpeta :
 
