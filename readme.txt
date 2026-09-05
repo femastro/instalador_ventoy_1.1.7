@@ -28,4 +28,5 @@ el archivo link to Ventoy.desktop, copiarla en la carpeta :
 * Puedes tambien agregarlo en el escritorio.
 
 
+
 y listo .....
