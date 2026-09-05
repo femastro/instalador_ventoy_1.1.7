@@ -6,5 +6,5 @@ Name=Ventoy
 Exec=su -c "bash /opt/ventoy/VentoyWeb.sh"
 Icon=/opt/ventoy/WebUI/favicon.ico
 Comment=
-Path=/home/fernando/.ventoy-1.1.17
+Path=/opt/ventoy
 StartupNotify=false
