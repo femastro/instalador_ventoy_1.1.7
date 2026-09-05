@@ -2,8 +2,8 @@
 # =================
 
 
-FORMA AUTOMATICA :
-==================
+## FORMA AUTOMATICA :
+## ==================
 
 ejecutar el archivo .sh de esta manera.
 
@@ -18,8 +18,8 @@ sudo passwd root
 terminal $> python3 install.py
 
 
-FORMA MANUAL:
-=============
+## FORMA MANUAL:
+## =============
 
 Las carpetas y los archivo deben quedar instalado de esta manera.
 
