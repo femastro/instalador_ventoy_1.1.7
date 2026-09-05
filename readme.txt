@@ -1,4 +1,5 @@
-FORMA AUTOMATICA
+FORMA AUTOMATICA :
+==================
 
 ejecutar el archivo .sh de esta manera.
 
@@ -14,8 +15,9 @@ terminal $> python3 install.py
 
 
 FORMA MANUAL:
+=============
 
-las carpetas y los archivo deben quedar instalado de esta manera.
+Las carpetas y los archivo deben quedar instalado de esta manera.
 
 La carpeta .ventoy-1.1.17 copiarla en /opt', con el nombre : ventoy.
 
