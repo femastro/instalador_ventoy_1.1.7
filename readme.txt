@@ -1,6 +1,6 @@
 FORMA AUTOMATICA
 
-ejecutar sel archivo .sh de esta manera.
+ejecutar el archivo .sh de esta manera.
 
 terminal $> bash install.sh
 
