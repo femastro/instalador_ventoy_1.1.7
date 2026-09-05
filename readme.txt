@@ -1,0 +1,29 @@
+FORMA AUTOMATICA
+
+ejecutar sel archivo .sh de esta manera.
+
+terminal $> bash install.sh
+
+ó 
+terminal $> python3 install.py
+
+
+FORMA MANUAL:
+
+las carpetas y los archivo deben quedar instalado de esta manera.
+
+La carpeta .ventoy-1.1.17 copiarla en /home/'usuario' , la carpeta debe esta oculta.
+
+el archivo link to Ventoy.desktop, copiarla en la carpeta :
+
+/home/'usuario'/.local/share/applications
+
+Puedes tambien si deseas tambien podes pegarlo en el escritorio.
+
+ATENCIÓN_:
+
+En el caso de que no se ejecute. crear el usuario Root :
+
+sudo passwd root
+
+y listo difrutalo.....

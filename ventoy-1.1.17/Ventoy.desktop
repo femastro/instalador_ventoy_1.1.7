@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=true
+Type=Application
+Name=Ventoy
+Exec=su -c "bash /opt/ventoy/VentoyWeb.sh"
+Icon=/opt/ventoy/WebUI/favicon.ico
+Comment=
+Path=/home/fernando/.ventoy-1.1.17
+StartupNotify=false
