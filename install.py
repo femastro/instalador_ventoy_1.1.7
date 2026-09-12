@@ -117,7 +117,7 @@ def main():
 
     archivo_origen = directorio_script / "ventoy-1.1.17/Ventoy.desktop"
     user = os.environ.get("USER")
-    archivo_destino = Path("/home/"+user+"/.local/share/applications/Ventoy.desktop")
+    archivo_destino = Path(f"/home/{user}/.local/share/applications/Ventoy.desktop")
 
     # Ejecución de la instalación con progreso
     copiar_carpeta_con_progreso(carpeta_origen, carpeta_destino)
