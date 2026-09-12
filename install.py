@@ -66,7 +66,7 @@ def copiar_archivo_con_progreso(origen: Path, destino: Path):
             )
 
     shutil.copystat(origen, destino)
-    os.chmod(destino, 0o755)  # Otorga permisos de ejecución si es necesario
+    os.chmod(destino, 0o075)  # Otorga permisos de ejecución si es necesario
     print("-> Archivo copiado exitosamente.\n")
 
 
@@ -109,16 +109,20 @@ def copiar_carpeta_con_progreso(origen: Path, destino: Path):
 def main():
     verificar_root()
 
+    user = os.environ.get("SUDO_USER")
     directorio_script = Path(__file__).resolve().parent
 
     # Configuración de rutas
     carpeta_origen = directorio_script / "ventoy-1.1.17"
     carpeta_destino = Path("/opt/ventoy")
-
+    
     archivo_origen = directorio_script / "ventoy-1.1.17/Ventoy.desktop"
-    user = os.environ.get("USER")
     archivo_destino = Path(f"/home/{user}/.local/share/applications/Ventoy.desktop")
-
+    
+    print("Iniciando el proceso de instalación...\n")
+    print(f"Archivo de origen: {archivo_origen}")
+    print(f"Archivo de destino: {archivo_destino} \n")
+    
     # Ejecución de la instalación con progreso
     copiar_carpeta_con_progreso(carpeta_origen, carpeta_destino)
     copiar_archivo_con_progreso(archivo_origen, archivo_destino)
