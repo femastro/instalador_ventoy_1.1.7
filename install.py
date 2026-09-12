@@ -116,7 +116,7 @@ def main():
     carpeta_destino = Path("/opt/ventoy")
 
     archivo_origen = directorio_script / "ventoy-1.1.17/Ventoy.desktop"
-    user= os.exec("echo $USER")
+    user = os.environ.get("USER")
     archivo_destino = Path("/home/"+user+"/.local/share/applications/Ventoy.desktop")
 
     # Ejecución de la instalación con progreso
@@ -127,4 +127,5 @@ def main():
 
 
 if __name__ == "__main__":
+  
     main()
